@@ -473,6 +473,20 @@ line-height: normal;
     width: 643px;
     margin-left: 240px;
 }
+.box-c{
+    display: flex;
+}
+.popular-text{
+    text-align: center;
+}
+.popu{
+    color: rgb(13, 94, 94);
+}
+.bow img{
+    width: 100px;
+    height: 50px;
+}
+
 @media screen and (max-width: 676px) {
     .header-nav{
         flex-direction: column;
