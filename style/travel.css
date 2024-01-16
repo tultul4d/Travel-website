@@ -10,6 +10,7 @@ font-family: "Mulish", sans-serif;
 
 
 
+
 .nav-container{
    /* border: 2px solid tomato;*/
     min-width: 20px;
@@ -233,8 +234,9 @@ border: 1px solid;
 height: 300px;
 flex-shrink: 0;
 background: rgba(19, 19, 24, 0.05);
-border: 1px solid tomato;
+ border: 1px solid rgb(238, 225, 223); 
 margin: 0 auto;
+margin-top: 30px;
 
 }
 .footer-text{
@@ -278,15 +280,48 @@ margin-left: 500px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    border: 1px solid tomato;
+    border: 1px solid rgb(244, 241, 240);
     margin-top: 30px;
+   
+}
+.discord{
+    width: 224px;
+height: 100px;
+transform: rotate(-19.628deg);
+flex-shrink: 0;
+position: absolute;
+bottom: 10%;
+left: 440px;
+background-color: #FF5400;
+
+
+
+}
+.travel{
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0 auto;
+    top: 10px;
+}
+    
+.Save{
+    color: #FFF;
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-left: 20px;
 }
 .contact-left{
     display: flex;
     flex-direction: column;
     align-items: start;
     gap:20px;
-    border: 1px solid tomato;
+    border: 1px solid rgb(247, 244, 243);
 }
 .contact-right{
     width: 672px;
@@ -294,6 +329,7 @@ height: 422px;
 flex-shrink: 0;
 border-radius: 16px;
 background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+position: relative;
 }
 .contact-left-titel{
     width: 400px;
@@ -313,6 +349,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 26px;
 }
+
 .contact-input{
     width: 393px;
 height: 52px;
@@ -352,18 +389,112 @@ text-align: center;
 cursor: pointer;
 padding: 20px 150px;
 }
+
+.nice img{
+    margin-left: 30px;
+    gap: 14px 5px;
+    /*border: 1px solid tomato;*/
+    border-radius: 16px;
+    margin-top: 20px;
+}
+.img-titel{
+    margin-left: 40px;
+    color: #131318;
+text-align: center;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-top: 40px;
+}
+.img-text{
+    color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+width: 600px;
+height: 50px;
+margin-left: 200px;
+}
+.hotel{
+    /*border: 1px solid tomato;*/
+    width: 503px;
+height: 204px;
+flex-shrink: 0;
+border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+}
+.map-1{
+   /* border: 1px solid tomato;*/
+    width: 503px;
+    height: 204px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+     background: rgba(41, 206, 246, 0.05)
+}
+.hotel-map{
+    display: flex;
+    margin-left: 150px;
+    gap: 20px;
+}
+.pic{
+    border: 1px solid rgb(242, 238, 237);
+    width: 503px;
+    height: 204px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    margin-left: 320px;
+    margin-top: 10px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+}
+.A{
+    color: #131318;
+
+text-align: center;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.B{
+    color: rgba(19, 19, 24, 0.70);
+
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+    width: 643px;
+    margin-left: 240px;
+}
 @media screen and (max-width: 676px) {
     .header-nav{
         flex-direction: column;
-        margin-left: 80px;
+        margin-left: 20px;
     }
     .item-container{
         flex-direction: column;
         margin-left: 70px;
     }
+    .banner{
+        margin-left: 220px; 
+    }
     .banner-titel{
-        padding-top: 30px;
-        font-size: 22px;
+        font-size: 12px;
+        font-weight: 400;
+        
+
+    }
+    .banner-text{
+        width: 350px;
+        height: 70px;
+    
     }
     .a{
         flex-direction: column;
@@ -379,11 +510,155 @@ padding: 20px 150px;
     }
     .main-section{
       flex-direction: column;
-      margin-top: 50px;
-      padding: 50px;
+      margin-top: 20px;
+      padding: 5px;
+     
          
     }
+    .text{
+        color: rgba(19, 19, 24, 0.70);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    width: 307px;
+    height: 52px;
+    }
+    .comone{
+      
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        line-height: 24px;
+        width: 335px;
+        height: 70px;
+    }
+    .text1{
+        color: rgba(19, 19, 24, 0.70);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    width: 330px;
+    height: 120px;
+    }
+    .foot{
+        width: 375px;
+     height: 309px;
+    flex-shrink: 0;
+    margin: 0 auto;
+    padding-left: 100px;
+    margin-top: 100px;
   
+    
+    }
+    .nav-container1{
+        text-align: center;
+        min-width: 20px;
+    display: flex;
+    align-items: center;
+    /*border: 2px solid blue;*/
+    width: 100%;
+    margin-left: 160px;
+    padding: 10px ;
+    margin-top: 50px ;
+
+
+    }
+    .footer-img{
+        width: 174.322px;
+    height: 24px;
+    flex-shrink: 0;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-left: 120px;
+    }
+
+   .nice img{
+    flex-direction: column;
+    width: 335px;
+height: 176px;
+flex-shrink: 0;
+   }
+   .img-text{
+    color: rgba(19, 19, 24, 0.70);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+width: 300px;
+height: 40px;
+margin-left: 70px;
+bottom: 60px;
+}
+  .img-titel{
+    color: #131318;
+
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+  .hotel-map{
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .map-1{
+        width: 503px;
+        height: 204px;
+      margin-left: 5px;
+      
+  }
+  .pic{
+    margin-left: 5px;
+    width: 500px;
+    height: 200px;
+  }
+  .A{
+    font-size: 20px;
+    margin-left:70px
+  }
+  .B{
+    margin: 0 auto;
+    width: 400px;
+    height: 100px;
+  }
+  .contact-container{
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 160px;
+    margin-left: 190px;
+  }
+  .contact-left-titel{
+    width: 200px;
+height: 50px;
+}
+  .contact-righ {
+    width: 50px;
+    height: 10px;
+   margin: 0 auto;
+    
+  }
+  .discord{
+    width: 124px;
+    height: 90px;
+    transform: rotate(-19.628deg);
+    flex-shrink: 0;
+    position: absolute;
+    bottom: 10%;
+    left: 140px;
+    background-color: #FF5400;
+    margin-top: 900px;
+    
+  }
+.footer-text{
+  margin-bottom: 0px;
 }
 
 
+}
