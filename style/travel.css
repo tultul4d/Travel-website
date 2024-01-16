@@ -145,9 +145,9 @@ border: 1px solid ;
     height: 500px;
     margin-left: 100px;
     border-radius: 16px;
-    background: linear-gradient(rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%); 
-    background-image: url(/Images/pic-a.png);
+    background-image: url("../Images/pic-a.png");
     background-repeat: no-repeat;
+    background: linear-gradient(rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%); 
 
 }
 /* main style*/
