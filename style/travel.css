@@ -534,6 +534,9 @@ line-height: normal;
 flex-shrink: 0;
 
     }
+    .main-img{
+        margin-left: 30px;
+    }
     .banner-text{
         width: 350px;
         height: 70px;
@@ -558,6 +561,7 @@ flex-shrink: 0;
      
          
     }
+
     .text{
         color: rgba(19, 19, 24, 0.70);
     font-size: 14px;
@@ -566,6 +570,7 @@ flex-shrink: 0;
     line-height: 26px;
     width: 307px;
     height: 52px;
+    margin-left: 30px;
     }
     .comone{
       
@@ -576,15 +581,23 @@ flex-shrink: 0;
         line-height: 24px;
         width: 335px;
         height: 70px;
+        margin-left: 30px;
     }
     .text1{
-        color: rgba(19, 19, 24, 0.70);
+        color: rgba(46, 46, 174, 0.7);
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
     width: 330px;
     height: 120px;
+    margin-left: 30px;
+    }
+    .title{
+        margin-left: 20px;
+    }
+    .btn{
+        margin-left: 20px;
     }
     .foot{
         width: 405px;
